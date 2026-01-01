@@ -101,7 +101,7 @@ if bmnr_p > 0 and eth_p > 0:
         st.metric("% of ETH Staked", f"{pct_eth_staked:.2f}%")
     
     # Auto-refresh loop
-    time.sleep(60)
+    time.sleep(30)
     st.rerun()
 else:
     st.warning("🔄 Fetching live market data... Please wait.")
